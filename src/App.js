@@ -1,22 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
+				REACT SKELETON <br />
+				<br />
+				<div>👾 ESLint - Airbnb: enforcing coding standards</div>
+				<div>👾 Prettier: enforcing coding standards</div>
+				<div>👾 Husky: commit restrictions</div>
+				<p> by vishnnarayanan@deloitte.com</p>
 			</header>
 		</div>
 	);
